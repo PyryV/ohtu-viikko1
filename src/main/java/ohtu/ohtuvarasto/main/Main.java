@@ -1,5 +1,5 @@
-package ohtu.ohtuvarasto;
-
+package ohtu.ohtuvarasto.main;
+import ohtu.ohtuvarasto.*;
 public class Main {
 
     public static void main(String[] args) {
@@ -24,6 +24,7 @@ public class Main {
         mehua.otaVarastosta(3.14);
         System.out.println("Mehuvarasto: " + mehua);
 
+        
         System.out.println("Virhetilanteita:");
         System.out.println("new Varasto(-100.0);");
         Varasto huono = new Varasto(-100.0);

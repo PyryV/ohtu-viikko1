@@ -1,5 +1,6 @@
 package ohtu.ohtuvarasto;
 
+import ohtu.main;
 import org.junit.*;
 import static org.junit.Assert.*;
 
@@ -117,5 +118,5 @@ public class VarastoTest {
         assertEquals("saldo = " + 4.0 + ", vielä tilaa " + 6.0, varasto.toString());
     }
 
-    
+
 }
