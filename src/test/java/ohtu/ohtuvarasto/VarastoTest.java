@@ -114,7 +114,7 @@ public class VarastoTest {
     public void toStringPistotarkastus(){
         varasto.lisaaVarastoon(7.0);
         varasto.otaVarastosta(3.0);
-        assertEquals("saldo= " + 4.0 + ", vielä tilaa " + 6.0, varasto.toString());
+        assertEquals("saldo = " + 4.0 + ", vielä tilaa " + 6.0, varasto.toString());
     }
 
 }
